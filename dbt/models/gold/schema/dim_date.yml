@@ -4,7 +4,7 @@ models:
   - name: dim_date
     description: "A date dimension table that includes various date attributes such as year, month, day, day name, day of the week, week of the year, and a weekend flag."
     columns:
-      - name: Date_Day
+      - name: Date
         description: "The specific date."
         tests:
           - not_null

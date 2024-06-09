@@ -41,6 +41,9 @@ models:
     gold:
       +schema: weather_gold
       +materialized: table
+    silver:
+      +schema: weather_silver
+      +materialized: table
 
 seeds:
   project_weather:

@@ -11,7 +11,7 @@ WITH date_spine AS (
 final AS (
     
     SELECT
-        date_day AS Date_Day,
+        date_day AS Date,
         EXTRACT(year FROM date_day) AS Year,
         EXTRACT(month FROM date_day) AS Month,
         EXTRACT(day FROM date_day) AS Day,
