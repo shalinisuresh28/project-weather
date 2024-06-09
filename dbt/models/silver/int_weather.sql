@@ -8,11 +8,11 @@ WITH raw_weather AS (
 transformed AS (
 
     SELECT
-        data.value:"parameter"::STRING AS parameter,
-        coords.value:"lat"::FLOAT AS latitude,
-        coords.value:"lon"::FLOAT AS longitude,
-        DATE(dates.value:"date")::STRING AS date,
-        dates.value:"value"::STRING AS value
+        data.value:"parameter"::STRING AS Parameter,
+        coords.value:"lat"::FLOAT AS Latitude,
+        coords.value:"lon"::FLOAT AS Longitude,
+        DATE(dates.value:"date")::STRING AS Date,
+        dates.value:"value"::STRING AS Value
     FROM
         raw_weather,
         LATERAL FLATTEN(input => COLUMN_1:"data") data,
