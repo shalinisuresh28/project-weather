@@ -38,5 +38,10 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   project_weather:
     # Applies to all files under models/example/
-    example:
+    gold:
+      +schema: weather_gold
       +materialized: table
+
+seeds:
+  project_weather:
+    +schema: weather_bronze
