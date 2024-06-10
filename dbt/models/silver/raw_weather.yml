@@ -3,6 +3,6 @@ version: 2
 sources:
   - name: project_weather
     database: weather  
-    schema: dev_weather_bronze  
+    schema: prod_weather_bronze  
     tables:
       - name: raw_weather
