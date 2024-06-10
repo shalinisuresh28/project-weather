@@ -1,0 +1,39 @@
+version: 2
+
+models:
+  - name: dim_date
+    description: "A date dimension table that includes various date attributes such as year, month, day, day name, day of the week, week of the year, and a weekend flag."
+    columns:
+      - name: Date
+        description: "The specific date."
+        tests:
+          - not_null
+          - unique
+      - name: Year
+        description: "The year of the date."
+        tests:
+          - not_null
+      - name: Month
+        description: "The month of the date."
+        tests:
+          - not_null
+      - name: Day
+        description: "The day of the month."
+        tests:
+          - not_null
+      - name: Day_Name
+        description: "The name of the day (e.g., Monday, Tuesday)."
+        tests:
+          - not_null
+      - name: Day_of_Week
+        description: "The day of the week as a number (0=Sunday, 1=Monday, ..., 6=Saturday)."
+        tests:
+          - not_null
+      - name: Week_of_Year
+        description: "The week number of the year."
+        tests:
+          - not_null
+      - name: Is_Weekend
+        description: "Indicates whether the date is a weekend or a weekday."
+        tests:
+          - not_null

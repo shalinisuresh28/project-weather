@@ -1,0 +1,18 @@
+Weather_Symbol_Id,Symbol_Description
+0,A weather symbol could not be determined
+1,Clear Sky
+2,Light Clouds
+3,Partly Cloudy
+4,Cloudy
+5,Rain
+6,Rain and snow or sleet
+7,Snow
+8,Rain Shower
+9,Snow Shower
+10,Sleet Shower
+11,Light Fog
+12,Dense Fog
+13,Freezing Rain
+14,Thunderstorms
+15,Drizzle
+16,Sandstorm
