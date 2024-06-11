@@ -1,0 +1,32 @@
+
+models:
+  - name: fct_weather
+    description: "Fact table for weather data aggregated by date and location."
+    columns:
+      - name: Weather_Id
+        description: "Surrogate key for the weather record."
+        tests:
+          - not_null
+          - unique
+      - name: Location_Id
+        description: "Surrogate key for the location (latitude and longitude)."
+      - name: Date
+        description: "The date of the weather record."
+      - name: Weather_Symbol_Id
+        description: "ID representing the weather symbol for the day."
+      - name: Min_Temperature
+        description: "Minimum temperature at 2 meters height over 24 hours in Celsius."
+      - name: Max_Temperature
+        description: "Maximum temperature at 2 meters height over 24 hours in Celsius."
+      - name: Precipitation
+        description: "Total precipitation over 24 hours in millimeters."
+      - name: Wind_Speed
+        description: "Wind speed at 10 meters height in meters per second."
+      - name: Wind_Direction
+        description: "Wind direction at 10 meters height in degrees."
+      - name: Sunrise
+        description: "Time of sunrise."
+      - name: Sunset
+        description: "Time of sunset."
+      - name: UV_Index
+        description: "UV index for the day."

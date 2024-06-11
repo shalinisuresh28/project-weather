@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: dim_weather_condition
+    description: "Dimension table for weather conditions containing weather symbol IDs and their descriptions."
+    columns:
+      - name: Weather_Symbol_Id
+        description: "ID representing the weather symbol."
+        tests:
+          - not_null
+          - unique
+      - name: Symbol_Description
+        description: "Description of the weather symbol."
+        tests:
+          - not_null
+          - unique
