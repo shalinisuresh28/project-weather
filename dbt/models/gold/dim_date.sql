@@ -2,8 +2,8 @@ WITH date_spine AS (
 
     {{ dbt_utils.date_spine(
         datepart="day",
-        start_date="current_date()",
-        end_date="dateadd(day, 10, current_date())"
+        start_date="dateadd(day, -1, current_date())",
+        end_date="dateadd(day, 9, current_date())"
     ) }}
 
 ),
