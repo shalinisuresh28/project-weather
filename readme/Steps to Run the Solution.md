@@ -39,7 +39,7 @@ The DAG will execute the following sequence of tasks:
 
 1. Open your web browser and navigate to the [Snowflake Dedicated Login URL](https://fnzcqvd-le43064.snowflakecomputing.com).
 2. Log in using the following credentials:
-   - **Username:** SHALINISURESHBABU28
+   - **Username:** Admin
    - **Password:** Admin@12345
 
 ### 5. Verify the Data in Snowflake
