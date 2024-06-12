@@ -5,7 +5,9 @@
 This document outlines the design and workflow of the data pipeline for Project Weather, which aims to extract weather data from the Meteomatics API, transform it using dbt, and load it into a Snowflake data warehouse. The process is orchestrated using Azure Managed Airflow.
 
 ## Logical Data Model
-https://github.com/shalinisuresh28/project-weather/blob/960fe978aaeff7e9c3707edb0a6ad30ff1bcf8d2/readme/images/Weather_Logical_Model-Logical%20Model.jpg
+
+![Logical](https://github.com/shalinisuresh28/project-weather/blob/960fe978aaeff7e9c3707edb0a6ad30ff1bcf8d2/readme/images/Weather_Logical_Model-Logical%20Model.jpg)
+
 
 ## Tech Stack
 
