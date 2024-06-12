@@ -13,7 +13,7 @@ This guide provides step-by-step instructions to run the Project Weather data pi
 
 ### 1. Log in to Azure Managed Airflow
 
-1. Open your web browser and navigate to [Azure Managed Airflow](https://24061034821718.westeurope.airflow.svc.datafactory.azure.com/home).
+1. Open your web browser and navigate to [Azure Managed Airflow](https://fd701914951718.westeurope.airflow.svc.datafactory.azure.com/home).
 2. Log in using the following credentials:
    - **Username:** admin
    - **Password:** admin123
@@ -39,7 +39,7 @@ The DAG will execute the following sequence of tasks:
 
 1. Open your web browser and navigate to the [Snowflake Dedicated Login URL](https://fnzcqvd-le43064.snowflakecomputing.com).
 2. Log in using the following credentials:
-   - **Username:** SHALINISURESHBABU28
+   - **Username:** Admin
    - **Password:** Admin@12345
 
 ### 5. Verify the Data in Snowflake
